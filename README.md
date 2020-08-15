@@ -6,8 +6,13 @@ The user to be able to take a picture of their plant **leaf** and have detecting
 
 
 ![Graph](./images/graph.png)
- 
- # About the Code & Implementation
+
+# Tools we are using
+
+- [FastAI](https://www.fast.ai/)  - For Data Reading & Preprocessing & Training DL Model
+- [FastAPI](https://fastapi.tiangolo.com/) - For wrapping the DL Model into an API an send it to Backend Team
+
+# About the Code & Implementation
  
  ## Data  
  The [Dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset) has over 38 Different Classes and 87k RGB image. And Below if my implementation - 
@@ -29,8 +34,5 @@ With Training the model for 1 epoch, took 16 minutes in single Tesla P100 GPU (I
 - Accuracy = 0.977258
 
 
-
-# Tools we are using
-
-- [FastAI](https://www.fast.ai/)  - For Data Reading & Preprocessing & Training DL Model
-- [FastAPI](https://fastapi.tiangolo.com/) - For wrapping the DL Model into an API an send it to Backend Team
+# License
+Distributed under the Apache License 2.0. See LICENSE for more information.
